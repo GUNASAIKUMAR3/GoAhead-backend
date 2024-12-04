@@ -1,4 +1,4 @@
-const Signup = require("../models/signup");
+const Signup = require("../models/Signup");
 const bcrypt = require("bcryptjs");
 
 // Handle User Registration
