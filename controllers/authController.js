@@ -17,6 +17,8 @@ exports.registerUser = async (req, res) => {
   }
 };
 
+
+
 // Handle User Login
 exports.loginUser = async (req, res) => {
   const { email, password } = req.body;

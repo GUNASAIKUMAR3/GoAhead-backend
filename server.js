@@ -6,7 +6,7 @@ const dotenv = require("dotenv");
 const app = express();
 const port = 3001;
 dotenv.config();
-const MONGO_URL =process.env.MONGO_URL;
+const MONGO_URL = process.env.MONGO_URL;
 
 // Connect to MongoDB
 mongoose
@@ -15,6 +15,7 @@ mongoose
   .catch((err) => console.log("Error connecting to DB:", err));
 
 // Middleware
+
 app.use(cors());
 app.use(express.json()); // Parse JSON bodies
 

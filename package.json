@@ -2,10 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "main": "server.js",
- "scripts": {
-  "start": "node server.js"
-}
-,
+  "scripts": {
+    "start": "node server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,8 +15,11 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
+    "google-auth-library": "^9.15.0",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.11.0",
-    "mongoose": "^8.8.3"
+    "mongoose": "^8.8.3",
+    "node-fetch": "^3.3.2",
+    "whatwg-url": "^14.1.0"
   }
 }
