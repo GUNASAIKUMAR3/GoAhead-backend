@@ -5,8 +5,7 @@ const authRoutes = require("./routes/auth");
 const geminiChatBot = require("./routes/gemini");
 const dotenv = require("dotenv");
 const app = express();
-// const port = process.env.PORT || 5050;
-const port = 5050;
+const port = process.env.PORT || 5050;
 dotenv.config();
 
 const MONGO_URL = process.env.MONGO_URL;
